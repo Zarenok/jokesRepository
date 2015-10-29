@@ -7,15 +7,28 @@
 //
 
 #import "ViewController.h"
-
+#import "JokeCollection.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *jokeLabel;
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    JokeCollection *jokes;
+}
+- (IBAction)onBackListener:(id)sender {
+    [_jokeLabel setText:[jokes previous]];
+}
+- (IBAction)onNextListener:(id)sender {
+    [_jokeLabel setText:[jokes next]];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [_jokeLabel setText:@"Click to get joke"];
+    jokes = [[JokeCollection alloc] init];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

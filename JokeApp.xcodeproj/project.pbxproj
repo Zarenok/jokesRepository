@@ -14,6 +14,7 @@
 		845834331BE2676400519078 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845834321BE2676400519078 /* Images.xcassets */; };
 		845834361BE2676400519078 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845834341BE2676400519078 /* LaunchScreen.xib */; };
 		845834421BE2676400519078 /* JokeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845834411BE2676400519078 /* JokeAppTests.m */; };
+		8458344D1BE2691800519078 /* JokeCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458344C1BE2691800519078 /* JokeCollection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8458343B1BE2676400519078 /* JokeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845834401BE2676400519078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845834411BE2676400519078 /* JokeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokeAppTests.m; sourceTree = "<group>"; };
+		8458344B1BE2691800519078 /* JokeCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeCollection.h; sourceTree = "<group>"; };
+		8458344C1BE2691800519078 /* JokeCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeCollection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				845834321BE2676400519078 /* Images.xcassets */,
 				845834341BE2676400519078 /* LaunchScreen.xib */,
 				845834251BE2676400519078 /* Supporting Files */,
+				8458344B1BE2691800519078 /* JokeCollection.h */,
+				8458344C1BE2691800519078 /* JokeCollection.m */,
 			);
 			path = JokeApp;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8458344D1BE2691800519078 /* JokeCollection.m in Sources */,
 				8458342E1BE2676400519078 /* ViewController.m in Sources */,
 				8458342B1BE2676400519078 /* AppDelegate.m in Sources */,
 				845834281BE2676400519078 /* main.m in Sources */,
